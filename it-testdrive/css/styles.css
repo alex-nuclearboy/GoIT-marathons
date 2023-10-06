@@ -1,0 +1,25 @@
+.main-page {
+    background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+}
+
+.main-page-text-container {
+    border-radius: 40px;
+    background: #FFF;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.main-page-btn {    
+    background: #FF6B0A;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    color: #FFF;        
+}
