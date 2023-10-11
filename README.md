@@ -10,7 +10,7 @@ This repository contains a collection of projects developed during the participa
 
 - _js-minicourse (JavaScript mini-course)_ - examples of using the syntax and capabilities of the JavaScript language.
 
-- _python-demo (Demo version of the Python course)_ - a program that uses the Turtle module for visual programming in Python.
+- _python-demo (Demo version of the Python course)_ - an example of a program for managing a cinema cash desk that uses the Turtle module for visual programming in Python.
 
 - _it-testdrive (Test Drive IT Professions)_ - this folder contains one of the projects that demonstrates web development skills. <a href="https://wondrous-fairy-f09f78.netlify.app/">The Banderogoose website</a> was initially designed in Figma and then implemented in HTML and CSS. This project illustrates the practical application of the concepts learned.
 
@@ -29,7 +29,7 @@ This repository contains a collection of projects developed during the participa
 
 - _js-minicourse (Мінікурс JavaScript)_ - приклади використання синтаксису та можливостей мови JavaScript.
 
-- _python-demo (Демоверсія повноцінного курсу Python)_ - програма, яка використовує модуль Turtle для візуального програмування на мові Python.
+- _python-demo (Демоверсія повноцінного курсу Python)_ - приклад програми для управління касою кінотеатру, яка використовує модуль Turtle для візуального програмування на мові Python.
 
 - _it-testdrive (Test Drive IT-професій)_ - ця тека містить один з проєктів, що демонструє навички веб-розробки. <a href="https://wondrous-fairy-f09f78.netlify.app/">Сайт "Бандерогусь"</a> спершу був розроблений у Figma, а потім втілено за допомогою HTML та CSS. Цей проєкт ілюструє практичне застосування вивчених концепцій.
 
