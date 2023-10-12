@@ -55,3 +55,65 @@ body {
     line-height: 24px;
     margin: 0;
 }
+
+.form-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form {
+    border-radius: 40px;
+    background: #ecf4f8;
+    width: 1170px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-title {
+    color: #1b1d1f;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.form-field {
+    border-radius: 12px;
+    border: 1px solid #2b4c5c;
+    width: 304px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    margin-right: 24px;
+
+    color: #1b1d1f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form-submit-btn {
+    border-radius: 12px;
+    background: #ff6b0a;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    border: none;
+    width: 304px;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
