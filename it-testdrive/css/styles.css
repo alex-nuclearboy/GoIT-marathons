@@ -1,218 +1,320 @@
 html,
 body {
-    margin: 0;
-    height: 100%;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
-    width: 1170px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    margin-top: 32px;
-    margin-bottom: 60px;
+  margin-top: 32px;
+  margin-bottom: 60px;
 }
 
 .main-page {
-    background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
 }
 
+.main-page-left-side {
+  width: 50%;
+}
+
+.goose-img {
+  width: 50%;
+}
 .main-page-text-container {
-    border-radius: 40px;
-    background: #fff;
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-bottom: 60px;
-    padding-right: 60px;
-    box-sizing: border-box;
+  border-radius: 40px;
+  background: #fff;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
 }
 
 .main-page-btn {
-    background: #ff6b0a;
-    border: none;
-    border-radius: 8px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    cursor: pointer;
+  background: #ff6b0a;
+  border: none;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 .main-page-text-hello {
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    margin-top: 0;
-    margin-bottom: 60px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 
 .main-page-text-title {
-    color: #1b1d1f;
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 72px;
-    margin-top: 0;
-    margin-bottom: 24px;
+  color: #1b1d1f;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .main-page-text-descr {
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 0;
-    margin-bottom: 32px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .goose-facts {
-    text-align: center;
-    padding-top: 48px;
-    padding-bottom: 100px;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 100px;
 }
 
 .tryzub {
-    padding: 0;
+  padding: 0;
 }
 
 .goose-facts-title {
-    color: #1b1d1f;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 72px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+  color: #1b1d1f;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 .goose-facts-descr {
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    width: 772px;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 24px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 772px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .goose-facts-item {
-    width: 374px;
+  width: 30%;
+}
+
+.goose-facts-item-img {
+  width: 100%;
 }
 
 .goose-facts-item-title {
-    color: #1b1d1f;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
-    margin-top: 8px;
-    margin-bottom: 32px;
+  color: #1b1d1f;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 .goose-facts-item-descr {
-    color: #1b1d1f;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0;
+  color: #1b1d1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
 }
 
 .form-page {
-    background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .form {
-    border-radius: 40px;
-    background: #fff;
-    width: 574px;
-    padding-top: 32px;
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    box-sizing: border-box;
-    margin: auto;
-    text-align: center;
+  border-radius: 40px;
+  background: #fff;
+  width: 574px;
+  padding-top: 32px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
 }
 
 .form-title {
-    color: #1b1d1f;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
-    margin-top: 32px;
-    margin-bottom: 12px;
+  color: #1b1d1f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 .form-descr {
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 24px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .form-input {
-    border-radius: 8px;
-    border: 1px solid #005bbb;
-    background: #fff;
-    width: 454px;
-    height: 60px;
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-left: 12px;
-    padding-right: 12px;
+  border-radius: 8px;
+  border: 1px solid #005bbb;
+  background: #fff;
+  width: 454px;
+  height: 60px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .form-label {
-    color: #1b1d1f;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-bottom: 8px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 8px;
 }
 
 .form-field {
-    text-align: left;
-    margin-bottom: 24px;
+  text-align: left;
+  margin-bottom: 24px;
 }
 
 .form-btn {
-    background: #ff6b0a;
-    border: none;
-    border-radius: 8px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    cursor: pointer;
-    margin-top: 48px;
+  background: #ff6b0a;
+  border: none;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  margin-top: 48px;
 }
 
 .gus-anim {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin-bottom: auto;
-    margin-top: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1170px) {
+  .wrapper {
     width: 100%;
-    z-index: 2;
-    pointer-events: none;
+  }
+
+  .main-page-left-side {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .main-page-text-container {
+    padding: 20px;
+  }
+
+  .main-page-text-title {
+    font-size: 44px;
+  }
+
+  .main-page-text-hello {
+    margin-bottom: 10px;
+  }
+
+  .goose-img {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-page-left-side {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-page-text-container {
+    text-align: center;
+  }
+
+  .goose-facts {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .goose-facts-descr {
+    width: 100%;
+  }
+
+  .goose-facts-item {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form-page {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .form-input {
+    width: 90%;
+  }
+
+  .goose-img {
+    width: 90%;
+  }
+
+  .goose-facts-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .goose-facts-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
