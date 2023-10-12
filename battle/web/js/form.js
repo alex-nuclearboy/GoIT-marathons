@@ -8,8 +8,12 @@ formContainer.addEventListener("submit", function (event) {
 });
 
 formSubmitBtn.addEventListener("click", function () {
-    const formData = new FormData(formContainer);
+    if (userNameField.value === "" || userEmailField.value === "") {
+        alert("Будь ласка, правильно заповніть усі поля форми!");
+        return;
+    }
 
+    const formData = new FormData(formContainer);
     console.log("Дані форми готуються до відправлення на сервер");
 
     fetch("/", {
