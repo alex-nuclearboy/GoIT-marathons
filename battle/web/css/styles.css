@@ -117,3 +117,38 @@ body {
     line-height: 24px;
     cursor: pointer;
 }
+
+.gallery-page {
+    padding-bottom: 88px;
+}
+
+.gallery-title {
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #1b1d1f;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-modal-btn {
+    width: calc(25% - (24px * 3 / 4));
+    padding: 0;
+    background: none;
+    border: none;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.city-photo {
+    width: 100%;
+    border-radius: 48px;
+}
