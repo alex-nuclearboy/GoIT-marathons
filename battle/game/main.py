@@ -83,7 +83,7 @@ used_cities = []
 
 
 root = tk.Tk()
-root.title("Гра 'Міста'")
+root.title("Гра 'Міста України'")
 root.geometry("800x400")
 
 left_frame = tk.Frame(root)
