@@ -61,7 +61,7 @@ def get_city_by_letter(letter):
 
 def surrender():
     game_log.config(state=tk.NORMAL)
-    game_log.insert(tk.END, "Python виграв!\n")
+    game_log.insert(tk.END, "Перемога за Python!\n")
     game_log.yview(tk.END)
     game_log.config(state=tk.DISABLED)
     notification.config(
