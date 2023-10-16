@@ -13,14 +13,57 @@ body {
     box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
-.main-description {
-    margin: 20px;
-    padding: 40px;
-    background: red;
+aside {
+    width: 370px;
+    background: #1e2939;
 }
 
-.test-block {
-    margin: 5px;
-    padding: 40px;
-    background: rgb(33, 212, 9);
+.cv-photo {
+    margin-top: 40px;
+}
+
+.header-secondary {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.contact-links {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-secondary {
+    color: #fb6d3a;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-secondary-item {
+    color: #ffffff;
+}
+
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.soft-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
 }
