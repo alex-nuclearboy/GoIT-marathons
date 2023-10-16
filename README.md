@@ -28,7 +28,7 @@ This repository contains a collection of projects developed during the participa
 -   _cv-project (Марафон із HTML+CSS)_ - міні-сайт, що включає в себе основи верстки та Frontend-розробки. Проєкт присвячений створенню макету <a href="https://timely-quokka-fb62e1.netlify.app/">резюме Бандерогусака</a>.
 
 -   _cv-project-pl (Марафон від GoIT Polska із HTML+CSS)_ - ще один міні-сайт, що демонструє створення зручного та естетичного інтерфейсу. Проєкт включає макет резюме англійською мовою.
--   
+  
 -   _game (Марафон з професії Python)_ - відеогра, що демонструє навички програмування на мові Python.
 
 -   _js-minicourse (Мінікурс JavaScript)_ - приклади використання синтаксису та можливостей мови JavaScript.
