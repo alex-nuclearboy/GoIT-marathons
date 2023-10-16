@@ -44,6 +44,8 @@ def get_last_letter(city):
     last_letter = city[-1].upper()
     if last_letter in ["Ь", "Й", "И"]:
         last_letter = city[-2].upper()
+        if last_letter in ["Ь", "И"]:
+            last_letter = city[-3].upper()
     return last_letter
 
 
