@@ -65,7 +65,8 @@ def surrender():
     game_log.yview(tk.END)
     game_log.config(state=tk.DISABLED)
     notification.config(
-        text="Python виграв! Нехай Вам пощастить наступного разу!")
+        text="""Гра завершена. 
+        Python виграв! Нехай Вам пощастить наступного разу!""")
     entry.delete(0, tk.END)
 
 
