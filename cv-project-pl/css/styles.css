@@ -67,3 +67,109 @@ aside {
     margin-top: 47px;
     margin-left: 40px;
 }
+
+main {
+    padding: 102px 216px 102px 88px;
+}
+
+.main-description {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.job-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.description {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.list-primery {
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-primery-item {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.header-primary {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.job-position {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.highlight {
+    color: #fb6d3a;
+}
+
+.job-period {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.job-duties-item {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    list-style: disc;
+}
+
+.job-duties-list {
+    padding-left: 16px;
+}
+
+.university-program {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.job {
+    width: 525px;
+}
+
+.university {
+    color: #fb6d3a;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
