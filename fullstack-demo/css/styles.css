@@ -1,0 +1,227 @@
+:root {
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-brand: #2196f3;
+  --color-brand-dk: #188ce8;
+  --color-light: #fff;
+  --color-bg-dark: #2f303a;
+  --color-bg-light: #f5f4fa;
+  --color-logo: #000;
+}
+
+body {
+  color: var(--color-primary);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+.header-logo {
+  color: var(--color-logo);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.78px;
+}
+
+.header-logo .accent {
+  color: var(--color-brand);
+}
+
+.header-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.28px;
+}
+
+.header-link:hover {
+  color: var(--color-brand);
+}
+
+.header-link:focus {
+  color: var(--color-brand);
+}
+
+.contacts-link {
+  color: var(--color-secondary);
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.28px;
+}
+
+.contacts-link:hover {
+  color: var(--color-brand);
+}
+
+.contacts-link:focus {
+  color: var(--color-brand);
+}
+
+/* Hero section*/
+.hero-section {
+  background-color: var(--color-bg-dark);
+}
+
+.hero-title {
+  color: var(--color-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.96px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--color-brand-dk);
+}
+
+.hero-button:focus {
+  background-color: var(--color-brand-dk);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 1.08px;
+  text-align: center;
+}
+
+/* Benefits section */
+.benefit-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefit-text {
+  color: var(--color-secondary);
+  line-height: 1.7;
+}
+
+/* Team section*/
+.team-section {
+  background-color: var(--color-bg-light);
+}
+
+.person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+}
+
+.person-job {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-bg-dark);
+}
+
+.footer-logo {
+  color: var(--color-light);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.78px;
+}
+
+.footer-logo .accent {
+  color: var(--color-brand);
+}
+
+.address-link {
+  color: var(--color-light);
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.address-link:hover {
+  color: var(--color-brand);
+}
+
+.address-link:focus {
+  color: var(--color-brand);
+}
+
+.footer-link {
+  color: #fff9;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.footer-link:hover {
+  color: var(--color-brand);
+}
+
+.footer-link:focus {
+  color: var(--color-brand);
+}
+
+/* Projects section */
+.projects-button {
+  background-color: var(--color-bg-light);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+}
+
+.projects-button:focus {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+}
+
+.project-title {
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.project-type {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.48px;
+}
