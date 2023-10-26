@@ -6,7 +6,7 @@ This repository contains a collection of projects developed during the participa
 
 -   _cv-project (HTML+CSS Marathon)_ - a mini-website that covers the basics of frontend development. This project is dedicated to creating a layout for <a href="https://timely-quokka-fb62e1.netlify.app/">Banderogoose's resume</a>.
 
--   _cv-project-pl (GoIT Polska HTML+CSS Marathon)_ - another mini-website showcasing the creation of of a user-friendly and aesthetic interface. The project includes a resume layout in English.
+-   _cv-project-pl (GoIT Polska HTML+CSS Marathon)_ - another mini-website showcasing the creation of of a user-friendly and aesthetic interface. The project includes a <a href="https://spiffy-blancmange-1acdfe.netlify.app/"> resume layout</a> in English.
 
 -   _game (Python profession Marathon)_ - a video game that demonstrates programming skills in Python.
 
@@ -27,8 +27,8 @@ This repository contains a collection of projects developed during the participa
 
 -   _cv-project (Марафон із HTML+CSS)_ - міні-сайт, що включає в себе основи верстки та Frontend-розробки. Проєкт присвячений створенню макету <a href="https://timely-quokka-fb62e1.netlify.app/">резюме Бандерогусака</a>.
 
--   _cv-project-pl (Марафон від GoIT Polska із HTML+CSS)_ - ще один міні-сайт, що демонструє створення зручного та естетичного інтерфейсу. Проєкт включає макет резюме англійською мовою.
-  
+-   _cv-project-pl (Марафон від GoIT Polska із HTML+CSS)_ - ще один міні-сайт, що демонструє створення зручного та естетичного інтерфейсу. Проєкт включає <a href="https://spiffy-blancmange-1acdfe.netlify.app/">макет резюме</a> англійською мовою.
+
 -   _game (Марафон з професії Python)_ - відеогра, що демонструє навички програмування на мові Python.
 
 -   _js-minicourse (Мінікурс JavaScript)_ - приклади використання синтаксису та можливостей мови JavaScript.
