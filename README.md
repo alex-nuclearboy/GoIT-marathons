@@ -17,6 +17,10 @@ This repository contains a collection of projects developed during the participa
 -   _it-testdrive (Test Drive IT Professions)_ - this folder contains one of the projects that demonstrates web development skills. <a href="https://wondrous-fairy-f09f78.netlify.app/">The Banderogoose website</a> was initially designed in Figma and then implemented in HTML and CSS. This project illustrates the practical application of the concepts learned.
 
 -   _battle (Comparison of two popular programming languages - JavaScript and Python)_ - a comparative analysis of two popular programming languages, JavaScript and Python. The `web` folder demonstrates the HTML/CSS + JavaScript layout for a landing page for the <a href="https://ubiquitous-starburst-a7128c.netlify.app/">city of Lviv</a>. The `game` folder contains the "Cities of Ukraine" game, written in Python.
+  
+-   _fullstack-demo (Demo version of the Fullstack Development course)_ - contains the layout of a website for the <a href="https://courageous-monstera-147a1d.netlify.app/">web studio</a>.
+
+-   _fullstack-demo-pl (GoIT Polska Demo version of the Fullstack Development course)_ - another layout of a website for the <a href="https://teal-dolphin-d72116.netlify.app/">web studio</a>.
 
 # Проєкти з безкоштовних ІТ-курсів та марафонів від GoIT
 
@@ -38,3 +42,7 @@ This repository contains a collection of projects developed during the participa
 -   _it-testdrive (Test Drive IT-професій)_ - ця тека містить один з проєктів, що демонструє навички веб-розробки. <a href="https://wondrous-fairy-f09f78.netlify.app/">Сайт "Бандерогусь"</a> спершу був розроблений у Figma, а потім втілено за допомогою HTML та CSS. Цей проєкт ілюструє практичне застосування вивчених концепцій.
 
 -   _battle (Порівняння двох популярних мов програмування - Javascript та Python)_ - порівняльний аналіз двох популярних мов програмування - JavaScript та Python. Тека `web` демонструє верстку HTML/CSS + JavaScript для лендингу <a href="https://ubiquitous-starburst-a7128c.netlify.app/">міста Львів</a>. Тека `game` містить гру "Міста України", написану на мові Python.
+
+-   _fullstack-demo (Демо-версія курсу Fullstack Development)_ - містить макет сайту для <a href="https://courageous-monstera-147a1d.netlify.app/">веб-студії</a>.
+
+-   _fullstack-demo-pl (GoIT Polska Демо-версія курсу Fullstack Development)_ - ще один макет сайту для <a href="https://teal-dolphin-d72116.netlify.app/">веб-студії</a>.
